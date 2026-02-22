@@ -1,8 +1,7 @@
 {
-  "version": 2,
   "functions": {
     "api/metrics.py": {
-      "runtime": "python3.11"
+      "runtime": "@vercel/python"
     }
   },
   "routes": [
