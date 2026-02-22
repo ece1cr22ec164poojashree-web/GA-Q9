@@ -1,13 +1,14 @@
 {
+  "version": 2,
   "functions": {
-    "api/*.py": {
+    "api/metrics.py": {
       "runtime": "python3.11"
     }
   },
   "routes": [
     {
       "src": "/api/metrics",
-      "dest": "/api/metrics.py"
+      "dest": "api/metrics.py"
     }
   ]
 }
